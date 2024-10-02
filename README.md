@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# AI-COMPANION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI-COMPANION is an AI-powered learning platform designed to create a personalized, engaging, and efficient learning experience for students across various subjects. Using advanced language understanding and generation capabilities powered by Google Gemini, AI-COMPANION offers interactive quizzes, real-time assistance, and progress tracking, all within an intuitive user interface.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **Personalized Quizzes**: Generate customized quizzes to enhance learning retention through interactive questions.
+- **AI Assistance**: Leverage the power of Gemini to ask questions and get instant, AI-generated answers on any topic.
+- **Progress Tracker**: Monitor your learning progress with a detailed history of quizzes and performance over time.
+- **File Upload for Study Materials**: Upload documents to generate questions or interact with content in a dynamic way using AI.
+- **Score Tracking**: Keep track of quiz scores and see performance metrics to ensure continuous improvement.
 
-### `npm start`
+## How AI-COMPANION Helps Users
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+AI-COMPANION provides a platform where users can tailor their learning experience to fit their individual needs. By generating personalized quizzes, users can focus on areas they need to improve. With AI assistance, users have a virtual companion available 24/7 to clarify concepts, answer questions, and provide feedback. Additionally, the progress tracking feature allows users to visualize their improvement over time, motivating them to keep learning and growing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Benefits:
+1. **Personalized Learning**: Adapt quizzes and interactions based on individual learning pace.
+2. **On-demand Assistance**: Get real-time answers and help on various subjects using advanced AI.
+3. **Trackable Progress**: Easily review your performance and identify strengths and areas for improvement.
+4. **Convenient Study Tool**: Upload materials and interact with them using AI for a richer study experience.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+AI-COMPANION is built using a modern web development stack to ensure scalability, flexibility, and performance.
 
-### `npm run build`
+- **Frontend**: 
+  - **React.js**: For creating the dynamic user interface.
+  - **Tailwind CSS**: For responsive and efficient styling.
+  - **SurveyJS**: For creating dynamic quiz forms and surveys.
+  
+- **Backend**: 
+  - **Express.js**: For handling the server-side logic and API integrations.
+  - **GoogleGenerativeAI (Gemini)**: For AI-based quiz generation and interactive assistance.
+  
+- **Database**: 
+  - **Firestore (Firebase)**: For storing user data, quiz history, and scores.
+  
+- **Authentication & Notifications**: 
+  - **Firebase Authentication**: For secure user login and management.
+  - **Firebase Cloud Messaging (FCM)**: For sending real-time notifications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/your-username/ai-companion.git
+   cd ai-companion
