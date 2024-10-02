@@ -46,6 +46,6 @@ AI-COMPANION is built using a modern web development stack to ensure scalability
 
    ```bash
    git clone https://github.com/Mohankrishna1201/gemini-frontend.git
-   cd gemini-frontend-main
+ 
    npm install
    npm start
