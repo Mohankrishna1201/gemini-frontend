@@ -80,10 +80,10 @@ const FileUploadComponent = () => {
     };
 
     return (
-        <div className="flex h-screen p-6 bg-gradient-to-br from-[#060606] via-[#111829] to-[#060606]">
+        <div className="flex flex-col md:flex-row h-screen p-4 sm:p-6 bg-gradient-to-br from-[#060606] via-[#111829] to-[#060606]">
             {/* Left Side: File Upload Section */}
-            <div className="w-1/4 bg-gray-900 shadow-lg rounded-lg p-6 mr-6 border border-gray-700">
-                <h2 className="text-xl font-semibold mb-4 text-gray-200">Upload PDF or Any File</h2>
+            <div className="w-full md:w-1/4 bg-gray-900 shadow-lg rounded-lg p-4 sm:p-6 mb-6 md:mb-0 md:mr-6 border border-gray-700">
+                <h2 className="text-lg sm:text-xl font-semibold mb-4 text-gray-200">Upload PDF or Any File</h2>
                 <form id="uploadForm" encType="multipart/form-data" className="mb-6">
                     <input
                         type="file"
@@ -104,10 +104,10 @@ const FileUploadComponent = () => {
             </div>
 
             {/* Right Side: Chat Interface Section */}
-            <div className="w-3/4 bg-gray-900 shadow-lg rounded-lg p-6 flex flex-col justify-between border border-gray-700">
+            <div className="w-full md:w-3/4 bg-gray-900 shadow-lg rounded-lg p-4 sm:p-6 flex flex-col justify-between border border-gray-700">
                 <div>
-                    <h2 className="text-xl font-semibold mb-4 text-gray-200">AI Chat Assistant</h2>
-                    <div className="flex-1 bg-gray-800 p-6 rounded-lg overflow-y-auto mb-4 shadow-inner" style={{ maxHeight: '500px' }}>
+                    <h2 className="text-lg sm:text-xl font-semibold mb-4 text-gray-200">AI Chat Assistant</h2>
+                    <div className="flex-1 bg-gray-800 p-4 sm:p-6 rounded-lg overflow-y-auto mb-4 shadow-inner" style={{ maxHeight: '400px' }}>
                         {loading ? (
                             <Loader /> // Show loader while loading
                         ) : chatResponse ? (
@@ -120,13 +120,13 @@ const FileUploadComponent = () => {
                     </div>
                 </div>
 
-                <form onSubmit={handleAsk} className="flex mt-4">
+                <form onSubmit={handleAsk} className="flex flex-col sm:flex-row mt-4">
                     <input
                         type="text"
                         value={question}
                         onChange={(e) => setQuestion(e.target.value)}
                         placeholder="Ask a question..."
-                        className="flex-1 bg-gray-800 text-gray-200 border border-gray-600 rounded-lg p-3 mr-4 shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-500"
+                        className="flex-1 bg-gray-800 text-gray-200 border border-gray-600 rounded-lg p-3 mb-4 sm:mb-0 sm:mr-4 shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-500"
                     />
                     <button
                         type="submit"
