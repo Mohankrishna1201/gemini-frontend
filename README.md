@@ -39,7 +39,11 @@ AI-COMPANION is built using a modern web development stack to ensure scalability
 - **Authentication & Notifications**: 
   - **Firebase Authentication**: For secure user login and management.
   - **Firebase Cloud Messaging (FCM)**: For sending real-time notifications.
-
+ 
+## BACKEND REPO
+ ```bash
+    https://github.com/Mohankrishna1201/gemini-backend
+```
 ## Installation & Setup
 
 1. Clone the repository:
