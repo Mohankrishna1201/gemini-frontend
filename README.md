@@ -1,6 +1,6 @@
-# AI-COMPANION
+# GEMINI - AI-COMPANION
 
-AI-COMPANION is an AI-powered learning platform designed to create a personalized, engaging, and efficient learning experience for students across various subjects. Using advanced language understanding and generation capabilities powered by Google Gemini, AI-COMPANION offers interactive quizzes, real-time assistance, and progress tracking, all within an intuitive user interface.
+GEMINI is an AI-powered learning platform designed to create a personalized, engaging, and efficient learning experience for students across various subjects. Using advanced language understanding and generation capabilities powered by Google Gemini, AI-COMPANION offers interactive quizzes, real-time assistance, and progress tracking, all within an intuitive user interface.
 
 ## Key Features
 
@@ -10,9 +10,9 @@ AI-COMPANION is an AI-powered learning platform designed to create a personalize
 - **File Upload for Study Materials**: Upload documents to generate questions or interact with content in a dynamic way using AI.
 - **Score Tracking**: Keep track of quiz scores and see performance metrics to ensure continuous improvement.
 
-## How AI-COMPANION Helps Users
+## How GEMINI Helps Users
 
-AI-COMPANION provides a platform where users can tailor their learning experience to fit their individual needs. By generating personalized quizzes, users can focus on areas they need to improve. With AI assistance, users have a virtual companion available 24/7 to clarify concepts, answer questions, and provide feedback. Additionally, the progress tracking feature allows users to visualize their improvement over time, motivating them to keep learning and growing.
+GEMINI provides a platform where users can tailor their learning experience to fit their individual needs. By generating personalized quizzes, users can focus on areas they need to improve. With AI assistance, users have a virtual companion available 24/7 to clarify concepts, answer questions, and provide feedback. Additionally, the progress tracking feature allows users to visualize their improvement over time, motivating them to keep learning and growing.
 
 ### User Benefits:
 1. **Personalized Learning**: Adapt quizzes and interactions based on individual learning pace.
