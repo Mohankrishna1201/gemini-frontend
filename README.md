@@ -45,5 +45,7 @@ AI-COMPANION is built using a modern web development stack to ensure scalability
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-companion.git
+   git clone https://github.com/Mohankrishna1201/gemini-frontend.git
    cd ai-companion
+   npm install
+   npm start
