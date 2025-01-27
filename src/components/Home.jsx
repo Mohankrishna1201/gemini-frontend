@@ -89,7 +89,7 @@ const HomePage = () => {
             </main>
 
             <footer className="w-full py-4 flex justify-center border-t border-gray-700 mt-8">
-                <p className="text-gray-500 text-sm">&copy; 2024 Gemini by Mohan. All Rights Reserved.</p>
+                <p className="text-gray-500 text-sm">&copy; 2024 Gemini by Tejaswi. All Rights Reserved.</p>
             </footer>
         </div>
     );
